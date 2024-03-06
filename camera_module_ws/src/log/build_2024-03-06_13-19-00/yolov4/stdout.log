@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/yolov4/yolov4.egg-info
+writing ../build/yolov4/yolov4.egg-info/PKG-INFO
+writing dependency_links to ../build/yolov4/yolov4.egg-info/dependency_links.txt
+writing entry points to ../build/yolov4/yolov4.egg-info/entry_points.txt
+writing requirements to ../build/yolov4/yolov4.egg-info/requires.txt
+writing top-level names to ../build/yolov4/yolov4.egg-info/top_level.txt
+writing manifest file '../build/yolov4/yolov4.egg-info/SOURCES.txt'
+reading manifest file '../build/yolov4/yolov4.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/yolov4/yolov4.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build/lib
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build/lib/yolov4
+copying yolov4/__init__.py -> /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build/lib/yolov4
+copying yolov4/oakd_pro_camera_run.py -> /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build/lib/yolov4
+running install
+running install_lib
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages/yolov4
+copying /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build/lib/yolov4/__init__.py -> /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages/yolov4
+copying /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build/lib/yolov4/oakd_pro_camera_run.py -> /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages/yolov4
+byte-compiling /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages/yolov4/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages/yolov4/oakd_pro_camera_run.py to oakd_pro_camera_run.cpython-310.pyc
+running install_data
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/ament_index
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/ament_index/resource_index
+creating /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/ament_index/resource_index/packages
+copying resource/yolov4 -> /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/ament_index/resource_index/packages
+copying package.xml -> /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4
+running install_egg_info
+Copying ../build/yolov4/yolov4.egg-info to /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages/yolov4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing oakd_pro_camera_run script to /home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/yolov4
+writing list of installed files to '/home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/install.log'

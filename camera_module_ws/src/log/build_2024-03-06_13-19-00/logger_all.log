@@ -1,0 +1,113 @@
+[2.815s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'yolov4']
+[2.815s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['yolov4'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f74e4599930>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f74e4a7fc10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f74e4a7fc10>>)
+[3.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sudhanshu/Lab_code/camera_module_ws/src'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extensions ['ignore', 'ignore_ament_install']
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extension 'ignore'
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extension 'ignore_ament_install'
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extensions ['colcon_pkg']
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extension 'colcon_pkg'
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extensions ['colcon_meta']
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extension 'colcon_meta'
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extensions ['ros']
+[3.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov4) by extension 'ros'
+[3.156s] DEBUG:colcon.colcon_core.package_identification:Package 'yolov4' with type 'ros.ament_python' and name 'yolov4'
+[3.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sudhanshu/Lab_code/new_package_ws/install
+[3.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'cmake_args' from command line to 'None'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'cmake_target' from command line to 'None'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'cmake_clean_cache' from command line to 'False'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'cmake_clean_first' from command line to 'False'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'cmake_force_configure' from command line to 'False'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'ament_cmake_args' from command line to 'None'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'catkin_cmake_args' from command line to 'None'
+[3.459s] Level 5:colcon.colcon_core.verb:set package 'yolov4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.459s] DEBUG:colcon.colcon_core.verb:Building package 'yolov4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4', 'merge_install': False, 'path': '/home/sudhanshu/Lab_code/camera_module_ws/src/yolov4', 'symlink_install': False, 'test_result_base': None}
+[3.475s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.490s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sudhanshu/Lab_code/camera_module_ws/src/yolov4' with build type 'ament_python'
+[3.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov4', 'ament_prefix_path')
+[3.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/hook/ament_prefix_path.ps1'
+[3.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/hook/ament_prefix_path.dsv'
+[3.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/hook/ament_prefix_path.sh'
+[3.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.868s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sudhanshu/Lab_code/camera_module_ws/src/yolov4'
+[3.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sudhanshu/Lab_code/camera_module_ws/src/yolov4': PYTHONPATH=/home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/prefix_override:/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/yolov4 build --build-base /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build install --record /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/install.log --single-version-externally-managed
+[4.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sudhanshu/Lab_code/camera_module_ws/src/yolov4' returned '0': PYTHONPATH=/home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/prefix_override:/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/yolov4 build --build-base /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/build install --record /home/sudhanshu/Lab_code/camera_module_ws/src/build/yolov4/install.log --single-version-externally-managed
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4' for CMake module files
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4' for CMake config files
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/bin'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/pkgconfig/yolov4.pc'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/lib/python3.10/site-packages'
+[4.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov4', 'pythonpath')
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/hook/pythonpath.ps1'
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/hook/pythonpath.dsv'
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/hook/pythonpath.sh'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/bin'
+[4.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov4)
+[4.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/package.ps1'
+[4.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/package.dsv'
+[4.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/package.sh'
+[4.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/package.bash'
+[5.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/yolov4/package.zsh'
+[5.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sudhanshu/Lab_code/camera_module_ws/src/install/yolov4/share/colcon-core/packages/yolov4)
+[5.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.143s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.168s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.205s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/local_setup.ps1'
+[5.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sudhanshu/Lab_code/camera_module_ws/src/install/_local_setup_util_ps1.py'
+[5.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/setup.ps1'
+[5.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/local_setup.sh'
+[5.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sudhanshu/Lab_code/camera_module_ws/src/install/_local_setup_util_sh.py'
+[5.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/setup.sh'
+[5.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/local_setup.bash'
+[5.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/setup.bash'
+[5.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/local_setup.zsh'
+[5.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhanshu/Lab_code/camera_module_ws/src/install/setup.zsh'

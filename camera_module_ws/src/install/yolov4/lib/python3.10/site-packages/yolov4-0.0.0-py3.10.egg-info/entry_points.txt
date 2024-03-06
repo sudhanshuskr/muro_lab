@@ -1,0 +1,3 @@
+[console_scripts]
+oakd_pro_camera_run = yolov4.oakd_pro_camera_run:main
+
