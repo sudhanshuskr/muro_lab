@@ -1,0 +1,27 @@
+[0.374s] Invoking command in '/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/src/yolov4': PYTHONPATH=/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/prefix_override:/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov4 build --build-base /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/build install --record /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/install.log --single-version-externally-managed
+[0.493s] running egg_info
+[0.493s] writing ../../build/yolov4/yolov4.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../../build/yolov4/yolov4.egg-info/dependency_links.txt
+[0.494s] writing entry points to ../../build/yolov4/yolov4.egg-info/entry_points.txt
+[0.494s] writing requirements to ../../build/yolov4/yolov4.egg-info/requires.txt
+[0.494s] writing top-level names to ../../build/yolov4/yolov4.egg-info/top_level.txt
+[0.494s] reading manifest file '../../build/yolov4/yolov4.egg-info/SOURCES.txt'
+[0.495s] adding license file 'LICENSE'
+[0.495s] writing manifest file '../../build/yolov4/yolov4.egg-info/SOURCES.txt'
+[0.495s] running build
+[0.495s] running build_py
+[0.495s] copying yolov4/oakd_pro_camera_run.py -> /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/build/lib/yolov4
+[0.495s] running install
+[0.495s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.495s]   warnings.warn(
+[0.495s] running install_lib
+[0.496s] copying /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/build/lib/yolov4/oakd_pro_camera_run.py -> /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/python3.10/site-packages/yolov4
+[0.496s] byte-compiling /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/python3.10/site-packages/yolov4/oakd_pro_camera_run.py to oakd_pro_camera_run.cpython-310.pyc
+[0.497s] running install_data
+[0.497s] running install_egg_info
+[0.498s] removing '/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/python3.10/site-packages/yolov4-0.0.0-py3.10.egg-info' (and everything under it)
+[0.498s] Copying ../../build/yolov4/yolov4.egg-info to /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/python3.10/site-packages/yolov4-0.0.0-py3.10.egg-info
+[0.498s] running install_scripts
+[0.509s] Installing oakd_pro_camera_run script to /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/yolov4
+[0.509s] writing list of installed files to '/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/install.log'
+[0.521s] Invoked command in '/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/src/yolov4' returned '0': PYTHONPATH=/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/prefix_override:/home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/install/yolov4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov4 build --build-base /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/build install --record /home/turtlebot/sudhanshu_files/muro_lab/camera_module_ws/build/yolov4/install.log --single-version-externally-managed

@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/yolov4/yolov4.egg-info/PKG-INFO
+../../build/yolov4/yolov4.egg-info/SOURCES.txt
+../../build/yolov4/yolov4.egg-info/dependency_links.txt
+../../build/yolov4/yolov4.egg-info/entry_points.txt
+../../build/yolov4/yolov4.egg-info/requires.txt
+../../build/yolov4/yolov4.egg-info/top_level.txt
+../../build/yolov4/yolov4.egg-info/zip-safe
+resource/yolov4
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+yolov4/__init__.py
+yolov4/oakd_pro_camera_run.py
